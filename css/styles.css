@@ -1,5 +1,22 @@
 /* Global Styles */
-
+.section-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.hero {
+  background-image: url('../img/bg_0.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.s1 {
+  background-image: url('../img/bg_1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
 /* Small Screens */
 @media only screen and (min-width : 768px) {
 }
